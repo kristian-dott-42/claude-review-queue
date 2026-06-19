@@ -18,10 +18,20 @@ Because the capture endpoint rides inside the MCP server process, **it's live wh
 - **Python 3.10+**
 - **Claude Desktop**
 
+## Get it
+
+Either clone it:
+
+```bash
+git clone https://github.com/kristian-dott-42/claude-review-queue.git
+cd claude-review-queue
+```
+
+…or download the ZIP from the green **Code** button at the top of this page, then unzip and `cd` into the folder.
+
 ## Install
 
 ```bash
-cd claude-review-queue
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
